@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  overflow: hidden;
+}
+
+.galaxy {
+  position: static;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  background-color: rgb(255, 230, 0);
+  width: 20px;
+  height: 15px;
+  border-radius: 50%;
+}
